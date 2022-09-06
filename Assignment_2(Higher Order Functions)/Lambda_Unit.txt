@@ -1,0 +1,13 @@
+//lambda expression which returns Unit
+package com.example.higherorderfunctions
+
+// lambda expression
+var lambda = {println("Kotlin: What is the Kotlin used for?\n" +
+        "Kotlin is an open-source statically typed programming language that targets the JVM, Android, JavaScript and Native") }
+// higher-order function
+fun higherfunc( lmbd: () -> Unit ) {
+    lmbd()
+}
+fun main(args: Array<String>) {
+    higherfunc(lambda)
+}
