@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity"
+    android:id="@+id/constraint_details"
+    >
+
+    <TextView
+        android:id="@+id/text_view_dailah_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/textview_detail_marginStart"
+        android:layout_marginTop="@dimen/textview_detail_dahlia_marginTop"
+        android:layout_marginEnd="@dimen/textview_detail_marginEnd"
+        android:layout_marginBottom="@dimen/textview_detail_marginBottom"
+        android:textSize="@dimen/text_view_detail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_view_rose_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/textview_detail_marginStart"
+        android:layout_marginTop="@dimen/textview_detail_rose_marginTop"
+        android:layout_marginEnd="@dimen/textview_detail_marginEnd"
+        android:layout_marginBottom="@dimen/textview_detail_rose_marginBottom"
+        android:textSize="@dimen/text_view_detail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <Button
+        android:id="@+id/detail_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_marginStart_details"
+        android:layout_marginTop="@dimen/imageView_svg_marginTop_home_white"
+        android:layout_marginEnd="@dimen/button_marginEnd_details"
+        android:layout_marginBottom="@dimen/button_marginBottom_details"
+        android:background="@drawable/detail_button_color"
+        android:textSize="@dimen/button_detail_textSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/imageView_width"
+        android:layout_height="@dimen/imageView_height"
+        android:layout_marginTop="@dimen/imageView_svg_marginTop_details"
+        android:background="@drawable/purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.1"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="@dimen/imageView_width"
+        android:layout_height="@dimen/imageView_height"
+        android:layout_marginStart="@dimen/imageView_marginStart_details_white"
+        android:layout_marginTop="@dimen/imageView_svg_marginTop_home_white"
+        android:layout_marginEnd="@dimen/imageView_svg_marginEnd_home_white"
+        android:background="@drawable/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/imageView_width_svg"
+        android:layout_height="@dimen/imageView_height_svg"
+        android:layout_marginStart="@dimen/imageView_svg_marginStart_details_purple"
+        android:layout_marginEnd="@dimen/imageView_svg_marginEnd_details_purple"
+        android:background="@drawable/ic_purple_daisy_with_face"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472">
+    </ImageView>
+</androidx.constraintlayout.widget.ConstraintLayout>
