@@ -1,0 +1,32 @@
+/*Create employee class initialize following values and Use "Apply" on employee object to change and display the employee data.
+Employee Name : James
+Employee Contact : 123456789
+Employee Dept : IT
+*/
+
+package com.example.higherorderfunctions.Assignment3
+    class employeee(var Employee_Name : String, var Employee_Contact : Int,var Employee_Dept : String){
+
+        fun display(){
+            println("Employee name:"+Employee_Name)
+            println("Employee contact:"+Employee_Contact)
+            println("Employee Dpt:"+Employee_Dept)
+        }
+
+    }
+
+fun main()
+{
+    val obj = employeee("James",999999999,"IT")
+    obj.display()
+    obj.apply {
+        Employee_Name = "Ramya"
+        Employee_Contact = 1234567890
+        Employee_Dept = "CS"
+        println("-------------------")
+        println("After using apply:")
+        display()
+
+    }
+}
+

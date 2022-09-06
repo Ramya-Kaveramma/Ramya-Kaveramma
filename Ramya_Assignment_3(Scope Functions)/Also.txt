@@ -1,0 +1,16 @@
+//Create a list with 9,8,7,4,5,6 and perform add & remove operation using "also"
+
+package com.example.higherorderfunctions.Assignment3
+
+fun main(args: Array<String>) {
+    var list = mutableListOf(9,8,7,6,5,4)
+    list.also {
+        println("List before adding new value: $it")
+        it.add(10)
+        println("List after adding new value: $it")
+        it.remove(4)
+        println("List before removing new value: $it")
+
+
+    }
+}

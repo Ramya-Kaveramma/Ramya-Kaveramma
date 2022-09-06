@@ -1,0 +1,29 @@
+//Print the value of sting varibale using  safety operator “?.” and "Let"
+
+
+package com.example.higherorderfunctions.Assignment3
+
+fun main(args: Array<String>) {
+
+    var firstName: String? = "Robosoft"
+    var middleName: String? = null
+    var lastName: String? = "Technologies"
+
+    println(firstName?.toUpperCase())
+    println(firstName?.length)
+    println(middleName?.toUpperCase())
+    println(lastName?.toUpperCase())
+
+    // created a list contains names
+    var stringlist: List<String?> = listOf("Trainee","Software", null, "Engineer")
+    // created new list
+    var newlist = listOf<String?>()
+    for (item in stringlist) {
+        // executes only for non-nullable values
+        item?.let { newlist = newlist.plus(it) }
+    }
+    // to print the elements stored in newlist
+    for(items in newlist){
+        println(items)
+    }
+}
