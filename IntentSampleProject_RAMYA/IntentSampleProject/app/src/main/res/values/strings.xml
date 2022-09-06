@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntentSampleProject</string>
+    <string name="launch_activity">Launch Activity</string>
+    <string name="launch_implicit_intent_activity">Launch Implicit Intent Activity</string>
+    <string name="implicit_activity">implicit activity</string>
+    <string name="this_is_detailactivity_launched_from_explicitintentactivity">This is DetailActivity launched from ExplicitIntentActivity</string>
+    <string name="open_browse">Open Browse</string>
+    <string name="open_dailpad">Open Dailpad</string>
+    <string name="open_google_map">Open Google Map</string>
+</resources>
