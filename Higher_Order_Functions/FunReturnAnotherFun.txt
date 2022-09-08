@@ -1,0 +1,16 @@
+//Returning a function from Higher-Order function
+package com.example.higherorderfunctions
+
+// function declaration
+fun mul(a: Int, b: Int): Int{
+    return a*b
+}
+//higher-order function declaration
+fun higherfunc() : ((Int,Int)-> Int){
+    return ::mul
+}
+fun main(args: Array<String>) {
+    val multiply = higherfunc()
+    val result = multiply(2,4)
+    println("The multiplication of two numbers is: $result")
+}

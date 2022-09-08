@@ -1,0 +1,16 @@
+//lambda expression which returns Integer value 
+
+package com.example.higherorderfunctions
+
+// lambda expression
+var lambdaPrg = {a: Int , b: Int -> a + b }
+// higher order function
+fun higherfunc( lmbd: (Int, Int) -> Int) {
+
+    var result = lmbd(2,10)
+    println("The sum of two numbers is: $result")
+}
+
+fun main(args: Array<String>) {
+    higherfunc(lambdaPrg)		 //passing lambda as parameter
+}
