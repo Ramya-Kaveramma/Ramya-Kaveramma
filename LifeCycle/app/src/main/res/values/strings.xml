@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">LifeCycle</string>
-    <string name="launch_second_activity">Launch Second activity</string>
-    <string name="launch_first_activity">Launch First activity</string>
-    <string name="display">Display</string>
-</resources>
