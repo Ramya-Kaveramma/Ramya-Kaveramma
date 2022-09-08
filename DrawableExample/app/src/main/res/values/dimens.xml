@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_view_detail">16dp</dimen>
+
+    <dimen name="button_detail">20dp</dimen>
+    <dimen name="button_detail_textSize">15dp</dimen>
+
+    <dimen name="textView_flower">24dp</dimen>
+
+    <dimen name="textView_marginStart">164dp</dimen>
+    <dimen name="textView_marginTop">100dp</dimen>
+    <dimen name="textView_marginEnd">163dp</dimen>
+    <dimen name="textView_marginBottom">513dp</dimen>
+
+    <dimen name="button_marginStart">161dp</dimen>
+    <dimen name="button_marginTop">40dp</dimen>
+    <dimen name="button_marginEnd">162dp</dimen>
+    <dimen name="button_marginBottom">152dp</dimen>
+
+    <dimen name="imageView_marginStart">36dp</dimen>
+    <dimen name="imageView_marginTop">52dp</dimen>
+    <dimen name="imageView_marginEnd">34dp</dimen>
+    <dimen name="imageView_marginBottom">36dp</dimen>
+
+    <dimen name="imageView_svg_marginStart">5dp</dimen>
+    <dimen name="imageView_svg_marginTop">52dp</dimen>
+    <dimen name="imageView_svg_marginEnd">10dp</dimen>
+    <dimen name="imageView_svg_marginBottom">36dp</dimen>
+
+//details
+    <dimen name="textview_detail_marginStart">30dp</dimen>
+    <dimen name="textview_detail_marginEnd">24dp</dimen>
+    <dimen name="textview_detail_dahlia_marginTop">80dp</dimen>
+    <dimen name="textview_detail_marginBottom">600dp</dimen>
+    <dimen name="textview_detail_rose_marginTop">170dp</dimen>
+    <dimen name="textview_detail_rose_marginBottom">90dp</dimen>
+
+    <dimen name="imageView_svg_marginTop_details">8dp</dimen>
+
+
+    <dimen name="imageView_svg_marginStart_details_purple">56dp</dimen>
+    <dimen name="imageView_svg_marginTop_details_purple">8dp</dimen>
+    <dimen name="imageView_svg_marginEnd_details_purple">25dp</dimen>
+    <dimen name="imageView_svg_marginBottom_details_purple">36dp</dimen>
+
+    <dimen name="imageView_marginStart_details_white">56dp</dimen>
+    <dimen name="imageView_svg_marginTop_home_white">25dp</dimen>
+    <dimen name="imageView_svg_marginEnd_home_white">25dp</dimen>
+    <dimen name="imageView_svg_marginBottom_home_purple">36dp</dimen>
+
+    <dimen name="button_marginStart_details">163dp</dimen>
+    <dimen name="button_marginTop_details">8dp</dimen>
+    <dimen name="button_marginEnd_details">160dp</dimen>
+    <dimen name="button_marginBottom_details">96dp</dimen>
+
+    //height and width
+    <dimen name="imageView_height">143dp</dimen>
+
+    <dimen name="imageView_width">143dp</dimen>
+
+    <dimen name="imageView_height_svg">123dp</dimen>
+
+    <dimen name="imageView_width_svg">73dp</dimen>
+</resources>

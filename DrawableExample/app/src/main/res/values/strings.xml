@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ResolutionApp</string>
+    <string name="this_is_a_drawable_example_project">This is a Drawable Example Project</string>
+    <string name="flowers">Flowers</string>
+    <string name="click_for_details">Click for details</string>
+    <string name="details">Details</string>
+</resources>
