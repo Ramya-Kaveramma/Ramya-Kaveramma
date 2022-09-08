@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Marshmello App</string>
+    <string name="initial_release_date">Initial release date</string>
+    <string name="_21_december_2008">October 5, 2015</string>
+    <string name="android_api">Android API</string>
+    <string name="api_level_22">API Level 23</string>
+    <string name="official_logo">Official logo</string>
+    <string name="majorHighlights">Major highlights</string>
+    <string name="highlights">Android 6.0 Marshmallow. Now on Tap: get assistance without having to leave what you are doing—whether you are in an app or on a website. Just touch and hold the home button. Do more with your voice</string>
+</resources>

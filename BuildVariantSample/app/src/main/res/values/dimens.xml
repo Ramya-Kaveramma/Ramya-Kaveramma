@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_view">16sp</dimen>
+    <dimen name="image_view_width">250sp</dimen>
+    <dimen name="image_view_height">250sp</dimen>
+
+    <dimen name="margin_start">24sp</dimen>
+    <dimen name="margin_end">24sp</dimen>
+
+</resources>

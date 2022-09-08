@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lollipop App</string>
+    <string name="initial_release_date">Initial release date</string>
+    <string name="_21_december_2008">21 December 2008</string>
+    <string name="android_api">Android API</string>
+    <string name="api_level_22">API level 22</string>
+    <string name="official_logo">Official logo</string>
+    <string name="majorHighlights">Major highlights</string>
+    <string name="highlights">A brand new feature to Android 5.0 Lollipop is the ability to view an estimated time left on your device before it needs to charge in real-life usage as opposed to a percentage – you can also see how long you have to wait for your device to fully charge when plugged in</string>
+</resources>

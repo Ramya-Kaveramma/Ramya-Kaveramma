@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nougat App</string>
+    <string name="initial_release_date">Initial release date</string>
+    <string name="_21_december_2008">4 November 2014</string>
+    <string name="android_api">Android API</string>
+    <string name="api_level_22">API level 24</string>
+    <string name="official_logo">Official logo</string>
+    <string name="majorHighlights">Major highlights</string>
+    <string name="highlights">Nougat introduces notable changes to the operating system and its development platform, including the ability to display multiple apps on-screen at once in a split-screen view, support for inline replies to notifications, and an expanded Doze power-saving mode that restricts device functionality</string>
+</resources>
