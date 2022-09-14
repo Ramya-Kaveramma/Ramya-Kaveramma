@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="user_details_text_view">30sp</dimen>
+    <dimen name="user_details_text_margin_start">130sp</dimen>
+    <dimen name="user_details_text_margin_top">100sp</dimen>
+    <dimen name="first_name_linear_layout_margin_bottom">15sp</dimen>
+    <dimen name="first_name_linear_layout_margin_top">10sp</dimen>
+    <dimen name="first_name_edit_text">50sp</dimen>
+    <dimen name="drawable_padding">10sp</dimen>
+    <dimen name="ll_heigth">1000sp</dimen>
+    <dimen name="ll_marginTop">50sp</dimen>
+    <dimen name="spinner_heightt">50sp</dimen>
+    <dimen name="spinner_margin_top">10sp</dimen>
+    <dimen name="spinner_margin_bottom">10sp</dimen>
+
+
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="textView_margin_end">50sp</dimen>
+    <dimen name="textView_margin_start">50sp</dimen>
+    <dimen name="textView_margin_top">25sp</dimen>
+
+    <dimen name="button_margin_start">150sp</dimen>
+    <dimen name="ll_elevation">30sp</dimen>
+    <dimen name="state_margin_bottom">10sp</dimen>
+    <dimen name="autocompletetextview_width">1sp</dimen>
+    <dimen name="willing_to_relocate_margin_bottom">10sp</dimen>
+    <dimen name="button_margin_top">50sp</dimen>
+    <dimen name="button_margin_bottom">50sp</dimen>
+
+    <dimen name="ud_ll_width">350sp</dimen>
+    <dimen name="ud_ll_margin_start">24sp</dimen>
+
+</resources>
