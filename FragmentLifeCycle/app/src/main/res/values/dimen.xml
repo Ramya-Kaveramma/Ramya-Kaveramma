@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="FL_margin_start">8dp</dimen>
+    <dimen name="FL_margin_Top">8dp</dimen>
+    <dimen name="FL_margin_End">8dp</dimen>
+    <dimen name="FL_margin_Bottom">8dp</dimen>
+
+    <dimen name="tvTextSize">22sp</dimen>
+    <dimen name="TV_margin_Top">25dp</dimen>
+
+    <dimen name="ET_margin_Top">27dp</dimen>
+    <dimen name="ET_margin_Start">24sp</dimen>
+    <dimen name="ET_margin_End">24sp</dimen>
+
+    <dimen name="B_margin_Bottom">184sp</dimen>
+</resources>
