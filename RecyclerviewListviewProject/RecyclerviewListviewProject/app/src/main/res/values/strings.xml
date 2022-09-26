@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RecyclerviewListviewProject</string>
+    <string name="name_1">Ramya</string>
+    <string name="name_2">Navya</string>
+    <string name="name_3">Niveditha</string>
+    <string name="name_4">Raji</string>
+    <string name="name_5">Vaishnavi</string>
+    <string name="name_6">Harshitha</string>
+    <string name="name_7">Elavarasan</string>
+    <string name="name_8">Sujana</string>
+    <string name="name_9">Kruthik</string>
+    <string name="name_10">Anviraj</string>
+    <string name="name_11">Amrutha</string>
+    <string name="name_12">Viyola</string>
+    <string name="name_13">Josline</string>
+    <string name="name_14">Ruchika</string>
+    <string name="name_15">Keerthan</string>
+    <string name="name_16">Suhas</string>
+    <string name="name_17">Reanick</string>
+    <string name="name_18">Ameer</string>
+    <string name="name_19">Pratik</string>
+    <string name="name_20">Amulya</string>
+
+    <string name="desg1">Mechanical Engineer</string>
+    <string name="desg2">Civil Engineer</string>
+    <string name="desg3">Architect</string>
+    <string name="desg4">Accountant</string>
+    <string name="desg5">Doctor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recyclerview">RecyclerView</string>
+    <string name="listview">ListView</string>
+</resources>
